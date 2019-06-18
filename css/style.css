@@ -11,10 +11,19 @@ ol {
 
 .body {
    background: rgba(103, 43, 153, 0.486);
+}
 
+.card {
+   background: red;
 }
 
 .description {}
+
+.leftSection__image {
+   border-radius: 50%;
+   width: 200px;
+   hight: 200px;
+}
 
 h1 {
    color: blue;
