@@ -9,6 +9,13 @@ ol {
    list-style: none;
 }
 
+.body {
+   background: rgba(103, 43, 153, 0.486);
+
+}
+
+.description {}
+
 h1 {
    color: blue;
 }
