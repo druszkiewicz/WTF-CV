@@ -12,7 +12,7 @@ ol {
 .body {
    background: #2C2141;
    min-height: 100vh;
-   padding: 16px;
+   padding: 6px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -21,7 +21,7 @@ ol {
 }
 
 .card {
-   background: #F8F8F8;
+   background: rgb(226, 230, 199);
    border-radius: 16px;
    max-width: 624px;
    width: 100%;
