@@ -16,6 +16,8 @@ ol {
    display: flex;
    align-items: center;
    justify-content: center;
+   justify-content: space-around;
+   align-items: center;
    font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -23,21 +25,29 @@ ol {
 .card {
    background: rgb(226, 230, 199);
    border-radius: 16px;
-   max-width: 624px;
-   width: 100%;
+   /* max-width: 1524px;
+   width: 100%; */
+   width: 650px;
    padding: 32px;
 
 }
 
 .person {
    display: flex;
+   flex-wrap: wrap;
    align-items: flex-start;
+   /* justify-content: space-around; */
+   justify-content: center;
+   flex-direction: row;
+
 }
 
 .person__description {
    font-size: 16px;
    line-height: 22px;
    margin-bottom: 32px;
+   text-align: start;
+   width: 400px;
 }
 
 .person__description--last {
@@ -64,6 +74,12 @@ ol {
    height: 150px;
    border-radius: 50%;
    margin-right: 32px;
+   margin-bottom: 32px;
+}
+
+.person__rPanel {
+
+   width: 450px;
 }
 
 .person__position {
