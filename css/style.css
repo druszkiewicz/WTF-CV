@@ -19,19 +19,15 @@ ol {
    justify-content: space-around;
    align-items: center;
    font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .card {
    background: rgb(226, 230, 199);
    border-radius: 16px;
-   /* max-width: 1524px;
-   width: 100%; */
    max-width: 650px;
    width: 100%;
    padding: 32px;
    margin: auto;
-
 }
 
 .person {
@@ -39,9 +35,7 @@ ol {
    flex-wrap: wrap;
    align-items: flex-start;
    justify-content: space-around;
-   /* justify-content: center; */
    flex-direction: row;
-
 }
 
 .person__description {
@@ -81,16 +75,16 @@ ol {
    margin-bottom: 32px;
 }
 
-.person__rPanel {
-
-   max-width: 400px;
-   width: 100%;
-}
-
 .person__position {
    color: #B92929;
    font-style: italic;
    font-size: 18px;
+}
+
+.person__rPanel {
+
+   max-width: 400px;
+   width: 100%;
 }
 
 .person__special {
